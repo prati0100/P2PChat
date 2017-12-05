@@ -51,7 +51,7 @@ public class Driver {
 
                     case 2: {
                         connectionManager = new ConnectionManager();
-                        System.out.println("Your IP address is " + ConnectionManager.getMyInetAddress());
+                        System.out.println("Your IP address is:\n" + ConnectionManager.getMyInetAddress());
                         System.out.println("Waiting for connection...");
                         connectionManager.waitForConnection();
                         System.out.println("Connected! Start conversation now!");

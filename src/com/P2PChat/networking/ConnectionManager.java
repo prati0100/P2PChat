@@ -52,13 +52,7 @@ public class ConnectionManager {
                 Enumeration<InetAddress> addresses = iface.getInetAddresses();
                 while(addresses.hasMoreElements()) {
                     InetAddress addr = addresses.nextElement();
-                    ip = addr.getHostAddress();
-                    //IPv4 address is 4 bytes (32 bits) in size. We usually need an IPv4 address
-                    //But addresses also contains the IPv6 address(which is 16 bytes), so we leaves that out
-                    if(addr.getAddress().length == 4) {
-                        return ip;
-                    }
-
+                    ip += iface.getDisplayName() + ": " + addr.getHostAddress() + '\n';
                 }
             }
 
