@@ -1,0 +1,12 @@
+#Ignore all HTML files
+*.html
+
+#Ignore files related to Intellij Idea
+P2PChat.iml
+.idea
+
+#Ignore compiled code
+out
+
+#Ignore generated docs
+docs
