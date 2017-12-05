@@ -8,10 +8,6 @@ import java.util.Scanner;
 /**
  * This class has the main() method, and handles the start of the program
  * @author Pratyush Yadav
- * @author Rahul Rai
- * @author Prateek
- * @author Raunaq Singh
- * @author Nandan Pai
  */
 
 public class Driver {

@@ -15,10 +15,6 @@ import java.util.NoSuchElementException;
  * This is the thread that works in the background and helps in receiving messages by reading input from the socket
  * and then printing the message to the terminal.
  * @author Pratyush Yadav
- * @author Rahul Rai
- * @author Prateek
- * @author Raunaq Singh
- * @author Nandan Pai
  */
 
 public class MessageReceiver extends Thread {

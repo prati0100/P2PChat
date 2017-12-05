@@ -16,11 +16,6 @@ import java.util.Scanner;
  * Manage the incoming and outgoing connections. We use two helper classes, both of which extend
  * {@link java.lang.Thread}. They are two threads that run in the background to read and send messages, respectively.
  * @author Pratyush Yadav
- * @author Rahul Rai
- * @author Prateek
- * @author Raunaq Singh
- * @author Nandan Pai
- *
  */
 
 public class ConnectionManager {

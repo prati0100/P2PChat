@@ -15,10 +15,6 @@ import java.util.Scanner;
  * This is the thread that works in the background and helps in sending messages by reading input from terminal
  * and then sending that information over the network.
  * @author Pratyush Yadav
- * @author Rahul Rai
- * @author Prateek
- * @author Raunaq Singh
- * @author Nandan Pai
  */
 
 public class MessageSender extends Thread {

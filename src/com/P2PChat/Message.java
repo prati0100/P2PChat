@@ -3,10 +3,6 @@ package com.P2PChat;
 /**
  * Describes a message that we receive. Contains information about the sender, and the message String
  * @author Pratyush Yadav
- * @author Rahul Rai
- * @author Prateek
- * @author Raunaq Singh
- * @author Nandan Pai
  */
 public class Message {
     private String msg;
